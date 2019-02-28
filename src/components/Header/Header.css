@@ -1,0 +1,15 @@
+.Header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.Header .Header_input {
+    border: none;
+    height: 50px;
+    font-weight: bold;
+    font-size: 45px;
+    outline: none;
+    width: 100%;
+}

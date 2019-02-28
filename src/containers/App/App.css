@@ -1,0 +1,36 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  box-sizing: border-box;
+  direction: ltr;
+}
+
+.App .App_add_btn {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-around;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding: 5px 16px;
+  font-size: 0.875rem;
+}
+
+.App .App_add_btn:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.App.dark {
+  background-color: #474957;
+  color: #EDEDEE;
+}
+
+.App.rtl {
+  direction: rtl
+}
