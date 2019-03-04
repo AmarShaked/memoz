@@ -8,6 +8,7 @@ import {
   DELETE_MEMO,
 } from './actions';
 import { LS_MEMO_KEY } from '../../constants/localStorage';
+import initialValue from './data';
 
 const generateEmptyMemo = () => ({
   id: generateId(),
@@ -16,8 +17,6 @@ const generateEmptyMemo = () => ({
 });
 
 function initMemorization() {
-  const initialValue = [generateEmptyMemo()];
-
   try {
     const item = window.localStorage.getItem(LS_MEMO_KEY);
     return item ? JSON.parse(item) : initialValue;
