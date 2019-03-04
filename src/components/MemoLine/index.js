@@ -44,6 +44,7 @@ const MemoLine = ({
           onChange={handleMemoTitleChange}
           placeholder="Memo item"
           value={title}
+          aria-label="Memo item title"
           type="text"
         />
         <span onClick={handleDeleteMemo} className="MemoLine_delete">Delete</span>

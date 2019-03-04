@@ -21,6 +21,7 @@ const Header = () => {
         onChange={e => setHeader(e.target.value)}
         className="Header_input"
         type="text"
+        aria-label="Title"
       />
     </header>
   );
