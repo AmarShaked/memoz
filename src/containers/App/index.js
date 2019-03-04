@@ -29,15 +29,17 @@ const App = () => {
   return (
     <div className={cx('App', { dark, rtl })}>
       <Header />
-      {state.map(memoLine => (
-        <MemoLine
-          key={memoLine.id}
-          id={memoLine.id}
-          title={memoLine.title}
-          memorization={memoLine.memorization}
-          dispatch={memorizationDispatcher}
-        />
-      ))}
+      <div>
+        {state.map(memoLine => (
+          <MemoLine
+            key={memoLine.id}
+            id={memoLine.id}
+            title={memoLine.title}
+            memorization={memoLine.memorization}
+            dispatch={memorizationDispatcher}
+          />
+        ))}
+      </div>
       <button className="App_add_btn" type="button" onClick={handleAddItemClick}>
         <span>Add item</span>
       </button>

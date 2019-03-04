@@ -6,6 +6,7 @@
     left: 0;
     width: 50px;
     padding: 20px;
+    background-color: #fff;
 }
 
 .ActionBar .ActionBar_btn {
@@ -23,6 +24,11 @@
     opacity: 0.9;
 }
 
+.dark .ActionBar {
+    background-color: #474957;
+}
+
 .dark .ActionBar .ActionBar_btn {
     color: #EDEDEE;
+
 }
