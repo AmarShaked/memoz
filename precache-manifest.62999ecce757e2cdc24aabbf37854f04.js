@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/memoz/static/js/2.5dc65c04.chunk.js"
   },
   {
-    "revision": "9128c162ddaeba7a33db110fff7343b4",
+    "revision": "0e6718fa1ef497c5ef9f64f7ad03cabf",
     "url": "/memoz/index.html"
   }
 ];
